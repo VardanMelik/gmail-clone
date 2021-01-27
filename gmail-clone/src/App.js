@@ -4,9 +4,10 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      Gmail
+    // BEM standard
+    <div className="app">
       <Header/>
+      Body
     </div>
   );
 }
